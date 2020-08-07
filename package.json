@@ -21,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/mja279/Read-Me-Generator/issues"
   },
-  "homepage": "https://github.com/mja279/Read-Me-Generator#readme"
+  "homepage": "https://github.com/mja279/Read-Me-Generator#readme",
+  "devDependencies": {}
 }
