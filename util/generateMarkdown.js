@@ -2,27 +2,38 @@
 function generateMarkdown(data) {
   return `
 
-  ## Title: 
+  # Title: 
+
+  ## Description
+
+  * ${data.description}
+
+  # Table of Contents
   
-  My GitHub username is: ${data.github}
+  >*[Title / ]
 
-  My email address is: ${data.email}
+  # Installation
+  ${data.license}
 
-  #Description
+  # Usage
+  ${data.repo}
 
-  #Table of Contents
+  # License
 
-  #Installation
+  ${data.dependencies}
 
-  #Usage
+  # Contributing
 
-  #License
+  ${data.contributions}
 
-  #Contributing
+  # Tests
+  ${data.tests}
 
-  #Tests
+  # Questions
+  
+  If you have any questions or issues, please contat me directly at  ${data.email}. You can find more information of my work at  ${data.github}.
 
-  #Questions`;
+  `;
 }
 
 module.exports = generateMarkdown;

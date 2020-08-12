@@ -13,6 +13,36 @@ function promptUser() {
       type: "input",
       name: "email",
       message: "What is your email address?",
+    },
+    {
+      type: "input",
+      name: "description",
+      message: "Please write a short description of your project",
+    },
+    {
+      type: "input",
+      name: "license",
+      message: "What kind of license should your project have?",
+    },
+    {
+      type: "input",
+      name: "dependencies",
+      message: "What command should be run to install your dependencies?",
+    },
+    {
+      type: "input",
+      name: "tests",
+      message: "What command should be run to run your tests?",
+    },
+    {
+      type: "input",
+      name: "repo",
+      message: "What does the user need to know about using the repo?",
+    },
+    {
+      type: "input",
+      name: "contributions",
+      message: "What does the user need to know about contributing to the repo?",
     }
   ]);
 } 
