@@ -2,32 +2,44 @@
 function generateMarkdown(data) {
   return `
 
-  # Title: 
+  # ${data.title}
 
   ## Description
 
-  * ${data.description}
+  ${data.description}
 
-  # Table of Contents
+  ## Table of Contents
   
-  >*[Title / ]
-
+  * [Installation](#installation) 
+  * [Usage](#usage) 
+  * [License](#license) 
+  * [Contributors](#contributing) 
+  * [Tests](#tests) 
+  * [Questions](#questions) 
+   
+  
   # Installation
-  ${data.license}
+  
+  To install required dependencies, run the following command: 
+  > ${data.dependencies}
 
   # Usage
+
   ${data.repo}
 
   # License
 
-  ${data.dependencies}
+  ![License](https://img.shields.io/badge/License-${data.license}-blue.svg)
+  > This project is licensed under the ${data.license} license. 
 
   # Contributing
 
   ${data.contributions}
 
   # Tests
-  ${data.tests}
+
+  To run tests, run the following command:
+  > ${data.tests}
 
   # Questions
   
