@@ -2,7 +2,7 @@
 function generateMarkdown(data) {
   return `
 
-  # ${data.title}
+  # ${data.project}
 
   ## Description
 

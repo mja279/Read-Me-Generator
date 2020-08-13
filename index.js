@@ -6,7 +6,7 @@ function promptUser() {
   return inquirer.prompt([
     {
       type: "input",
-      name: "title",
+      name: "project",
       message: "What is the title of your project?",
     },
     {
@@ -53,9 +53,9 @@ function promptUser() {
 } 
 
 function writeToFile(fileName, data) {
-  fs.writeFile("README.md", generateMarkdown(data), function(err) {
+  fs.writeFile("sampleREADME.md", generateMarkdown(data), function(err) {
 
-    console.log("README.md generated");
+    console.log("sampleREADME.md generated");
 
     if (err) {
       throw err;
@@ -65,7 +65,7 @@ function writeToFile(fileName, data) {
 
 promptUser()
   .then(function(data) {
-    const readmeFile = writeToFile("README.md", data);
+    const readmeFile = writeToFile("sampleREADME.md", data);
   })
   
   .then(function(){

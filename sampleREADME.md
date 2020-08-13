@@ -4,7 +4,7 @@
 
   ## Description
 
-  This application uses NodeJS to create professional README.md files for all of your project needs. Users are prompted to answer specific questions, such as title, description, license, dependencies and tests needed to run the application.
+  This is a short description of my application.
 
   ## Table of Contents
   
@@ -23,7 +23,7 @@
 
   # Usage
 
-  It's a really cool repo.
+  ~this is a really cool repo~
 
   # License
 
@@ -32,12 +32,12 @@
 
   # Contributing
 
-  always give credit where it's due!
+  Please give credit where credit is due!
 
   # Tests
 
   To run tests, run the following command:
-  > npm tests
+  > npm test
 
   # Questions
   
