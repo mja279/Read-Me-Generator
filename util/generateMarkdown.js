@@ -18,30 +18,30 @@ function generateMarkdown(data) {
   * [Questions](#questions) 
    
   
-  # Installation
+  ## Installation
   
   To install required dependencies, run the following command: 
   > ${data.dependencies}
 
-  # Usage
+  ## Usage
 
   ${data.repo}
 
-  # License
+  ## License
 
   ![License](https://img.shields.io/badge/License-${data.license}-blue.svg)
   > This project is licensed under the ${data.license} license. 
 
-  # Contributing
+  ## Contributing
 
   ${data.contributions}
 
-  # Tests
+  ## Tests
 
   To run tests, run the following command:
   > ${data.tests}
 
-  # Questions
+  ## Questions
   
   If you have any questions or issues, please contat me directly at  ${data.email}. You can find more information of my work at  ${data.github}.
 

@@ -2,6 +2,8 @@
 
   # README.md File Generator
 
+<img src="./assets/readmegeneratorGIF.gif">
+
   ## Description
 
   This application uses NodeJS to create professional README.md files for all of your project needs. Users are prompted to answer specific questions, such as title, description, license, dependencies and tests needed to run the application.
@@ -16,30 +18,32 @@
   * [Questions](#questions) 
    
   
-  # Installation
+  ## Installation
   
-  To install required dependencies, run the following command: 
+  This section will prompt the user to install the required dependencies. For example, a user may run the following command: 
   > npm install
 
-  # Usage
+  To initiate your application, you will need to type:
+  > node index.js
 
-  It's a really cool repo.
+  ## Usage
 
-  # License
+  In this section, let users know the best case usuage for your application. Provide any links that are relavent, including images that will provide context. 
 
-  ![License](https://img.shields.io/badge/License-MIT-blue.svg)
-  > This project is licensed under the MIT license. 
+  ## License
 
-  # Contributing
+  No license for this application. 
 
-  always give credit where it's due!
+  ## Contributing
 
-  # Tests
+  Be sure to include sources if referrenced, and provide information on contributors, if any. 
 
-  To run tests, run the following command:
+  ## Tests
+
+  This section will notify users if any tests are available to test scripts. For example, a user may run the following command:
   > npm tests
 
-  # Questions
+  ## Questions
   
   If you have any questions or issues, please contat me directly at  mja279@georgetown.edu. You can find more information of my work at  mja279.
 
