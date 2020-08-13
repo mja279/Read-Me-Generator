@@ -33,6 +33,7 @@
   ## License
 
   Sample Badge: ![License](https://img.shields.io/badge/License-SAMPLE-blue.svg)
+  
   No license for this application. 
 
   ## Contributing
